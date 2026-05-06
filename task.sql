@@ -1,4 +1,4 @@
 USE ShopDB;
 
-CREATE INDEX Customers.Email ON Customers (Email);
-CREATE INDEX Products.Name ON Products (Name);
+CREATE INDEX idx_customers_email ON Customers (Email);
+CREATE INDEX idx_products_name ON Products (Name);
